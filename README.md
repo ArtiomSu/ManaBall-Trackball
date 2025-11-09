@@ -1,6 +1,6 @@
 # Mana Ball Track Ball
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![QMK Firmware](https://img.shields.io/badge/Firmware-QMK-blue)](https://qmk.fm/)
 
 A fully modular, open-source, 3D-printable trackball with customizable RGB lighting and swappable button modules. The Mana Ball features a translucent 50mm ball illuminated by 6 RGB LEDs, creating a glowing multicolor orb effect reminiscent of mana orbs in video games.
@@ -208,7 +208,15 @@ Contributions are welcome! Whether you've designed a new button module, improved
 
 ## License
 
-This project is open source under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+**This means**:
+- ✅ You can use, modify, and share this design
+- ✅ You must share any modifications under the same license
+- ✅ You must give appropriate credit
+- ❌ You cannot use this commercially without permission
+
+See [LICENSE](LICENSE) for the full license text.
 
 ---
 
