@@ -5,7 +5,17 @@
 
 A fully modular, open-source, 3D-printable trackball with customizable RGB lighting and swappable button modules. The Mana Ball features a translucent 50mm ball illuminated by 6 RGB LEDs, creating a glowing multicolor orb effect reminiscent of mana orbs in video games.
 
-![Mana Ball Track Ball](images/mana-track-ball.jpg)
+<p align="center">
+  <img src="images/1.jpg" alt="Mana Ball Track Ball with button module" width="45%" />
+  <img src="images/2.jpg" alt="Mana Ball Track Ball" width="45%" />
+</p>
+
+See more photos in the [gallery](gallery.md).
+
+Click the image below to watch the trailer:
+
+[![Mana Ball Trailer](https://img.youtube.com/vi/vn09xzBtV5k/0.jpg)](https://www.youtube.com/watch?v=vn09xzBtV5k)
+
 
 ## Table of Contents
 
@@ -18,6 +28,7 @@ A fully modular, open-source, 3D-printable trackball with customizable RGB light
   - [Common Parts](#common-parts)
   - [Body Options](#body-options)
   - [Button Modules](#button-modules)
+  - [Wrist Rests](#wrist-rests)
   - [Recommended Setup](#recommended-setup)
 - [Assembly](#assembly)
   - [Wiring Diagrams](#wiring-diagrams)
@@ -39,7 +50,7 @@ A fully modular, open-source, 3D-printable trackball with customizable RGB light
 - **Universal Compatibility**: Works with all operating systems via USB-C
 - **Open Source**: Fully 3D printable with no custom PCBs required
 - **QMK Powered**: RP2040 microcontroller running QMK firmware
-- **Adjustable Settings**: Pointer speed, scroll speed, and LED effects
+- **Adjustable Settings**: Pointer speed, scroll speed, scroll direction and LED effects
 - **Standard Components**: Uses any 50mm ball
 
 ## Why Mana Ball?
@@ -107,11 +118,22 @@ Located in [`finished stl/buttons/`](<finished stl/buttons/>).
 
 **Compatibility**: Any button-compatible body works with any button module.
 
+Some button modules use a cover that is secured with magnets. For example the [triple button v3.1](<finished stl/buttons/triple button v3.1.stl>) would go together with [triple button v3.1 cover](<finished stl/buttons/triple button v3.1 cover.stl>).
+
+### Wrist rests
+
+Located in [`finished stl/wrist rest/`](<finished stl/wrist rest/>).
+
+**Note**: This is recommended as the ball is quite high.
+
+**Printing tip**: Print with TPU with 1 wall for top/bottom and sides. Use 5% infill for maximum comfort. This way it keeps its shape but is just a little bit soft.
+
 ### Recommended Setup
 
 **My current configuration**:
 - Body: [body_small_for_buttons_bigger_more_wire_cutouts.stl](<finished stl/body_small_for_buttons_bigger_more_wire_cutouts.stl>)
-- Buttons: [simple triple button test v2 higher.stl](<finished stl/buttons/simple triple button test v2 higher.stl>)
+- Buttons: [triple button v3.1](<finished stl/buttons/triple button v3.1.stl>) with [triple button v3.1 cover](<finished stl/buttons/triple button v3.1 cover.stl>).
+- Wrist Rest: [wrist rest.stl](<finished stl/wrist rest/wrist rest.stl>)
 - Layout: Left click, right click, and drag scroll—perfect for my workflow
 
 ## Assembly
@@ -128,17 +150,16 @@ Located in [`finished stl/buttons/`](<finished stl/buttons/>).
 
 **Important notes**:
 - **No diodes required**: Single-row, five-column matrix supports n-key rollover without diodes
-- **Expandable**: 9 additional free GPIO pins available for up to 14 total switches (requires firmware modification)
-- **Flexible switch count**: Using fewer than 5 switches? Just populate the pins you need (starting with GP13/GP12). Unpopulated switches are simply ignored by firmware
+- **Expandable**: 9 additional free GPIO pins available for up to 14 total switches (requires quick firmware modification)
+- **Flexible switch count**: Using fewer than 5 switches? Just populate the pins you need (starting with GP12). Unpopulated switches are simply ignored by firmware
 
 ### Assembly Videos
 
 Follow these step-by-step video guides:
 
 1. **[Head Assembly](https://youtu.be/o33xUQOpQcM)** - Start here, as this is the most complex and universal component
-2. **LED Installation** - *TODO: Video coming soon*
-3. **[Body Assembly](https://youtu.be/YjRsaHhR8Q8)** - Attach your chosen body
-4. **[Button Module Assembly](https://youtu.be/1hGQQQpRfPQ)** - Add buttons (if applicable)
+2. **[Body Assembly](https://youtu.be/YjRsaHhR8Q8)** - Attach your chosen body
+3. **[Better Button Module Assembly](https://www.youtube.com/watch?v=52Slw13G3vc)** - Add buttons (if applicable)
 
 ## Firmware
 
