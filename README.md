@@ -12,10 +12,11 @@ A fully modular, open-source, 3D-printable trackball with customizable RGB light
 
 See more photos in the [gallery](gallery.md).
 
-Click the image below to watch the trailer:
+Click the images below to watch introduction videos
 
-[![Mana Ball Trailer](https://img.youtube.com/vi/vn09xzBtV5k/0.jpg)](https://www.youtube.com/watch?v=vn09xzBtV5k)
-
+| Mana Ball Trailer | Mana Ball Overview and Features |
+|-------------------|----------------------------------|
+| [![Mana Ball Trailer](https://img.youtube.com/vi/vn09xzBtV5k/0.jpg)](https://www.youtube.com/watch?v=vn09xzBtV5k) | [![Mana Ball Overview and Features](https://img.youtube.com/vi/vn09xzBtV5k/0.jpg)](https://www.youtube.com/watch?v=vn09xzBtV5k) |
 
 ## Table of Contents
 
@@ -184,6 +185,10 @@ qmk flash -kb artiomsu_manaball -km default
 ```
 
 **Tip**: Flash firmware before wiring to verify the microcontroller works correctly.
+
+If you don't want to customise the firmware, you can download pre-compiled `.uf2` files from the [Releases](https://github.com/ArtiomSu/ManaBall-Trackball/releases).
+
+Drag and drop the `.uf2` file onto the RP2040 mounted as a USB drive. To mount the RP2040 as a USB drive, hold the BOOTSEL button while plugging it into your computer.
 
 ## Configuration
 
