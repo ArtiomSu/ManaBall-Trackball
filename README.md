@@ -16,7 +16,7 @@ Click the images below to watch introduction videos
 
 | Mana Ball Trailer | Mana Ball Overview and Features |
 |-------------------|----------------------------------|
-| [![Mana Ball Trailer](https://img.youtube.com/vi/vn09xzBtV5k/0.jpg)](https://www.youtube.com/watch?v=vn09xzBtV5k) | [![Mana Ball Overview and Features](https://img.youtube.com/vi/vn09xzBtV5k/0.jpg)](https://www.youtube.com/watch?v=vn09xzBtV5k) |
+| [![Mana Ball Trailer](https://img.youtube.com/vi/vn09xzBtV5k/0.jpg)](https://www.youtube.com/watch?v=vn09xzBtV5k) | [![Mana Ball Overview and Features](https://img.youtube.com/vi/WPnU__LLYNc/0.jpg)](https://www.youtube.com/watch?v=WPnU__LLYNc) |
 
 ## Table of Contents
 
@@ -78,6 +78,8 @@ See [materials.md](materials.md) for the complete parts list and required tools.
 All STL files are in the [`finished stl/`](<finished stl/>) folder.
 
 **Bambu Studio users**: A pre-configured `.3mf` project file is included with optimized print settings and bed arrangement.
+
+This is also uploaded to [Makers World](https://makerworld.com/en/models/2009889-mana-ball-track-ball) so you can download it directly to your Bambu Lab printer if you have one.
 
 ## Build Guide
 
