@@ -54,8 +54,24 @@ A visual showcase of the Mana Ball's design.
     </td>
   </tr>
   <tr>
+    <td width="50%">
+      <img src="images/13.jpg" alt="Mana Ball - View 13" width="100%">
+    </td>
+    <td width="50%">
+      <img src="images/14.jpg" alt="Mana Ball - View 14" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="images/15.jpg" alt="Mana Ball - View 15" width="100%">
+    </td>
+    <td width="50%">
+      <img src="images/16.jpg" alt="Mana Ball - View 16" width="100%">
+    </td>
+  </tr>
+  <tr>
     <td colspan="2" align="center">
-      <img src="images/13.jpg" alt="Mana Ball - View 13" width="50%">
+      <img src="images/17.jpg" alt="Mana Ball - View 17" width="50%">
     </td>
   </tr>
 </table>
